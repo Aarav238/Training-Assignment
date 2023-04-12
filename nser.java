@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class nser {
     //Function to find the next smallest element for right each element of the array.
-    public static long[] nextSmallestElement(long[] arr, int n)
+    public static long[] nextSmallestElement(int[] arr, int n)
     { 
         Stack<Long> stack = new Stack<>();
         long brr[]= new long[n];
